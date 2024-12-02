@@ -6,7 +6,7 @@ class Pessoa:
     @classmethod
     def criar_de_data_nascimento(cls, ano, mes, dia, nome):
         idade = 2022 - ano
-        return cls(nome, idade)
+        return cls(nome, idade) #Equivalente a Pessoa(nome, idade), Pessoa("Guilherme", 30)
 
     @staticmethod
     def e_maior_idade(idade):
